@@ -6,7 +6,7 @@ metadata:
   author: William Montgomery
 ---
 
-# Content Strategy
+# Content Strategy (B2B)
 
 ## Before You Start
 
