@@ -12,7 +12,7 @@ metadata:
 
 1. **Load shared context.** If `.agents/marketing-context.md` exists, read it first and only ask for what's missing. If it doesn't exist, offer to run the [marketing-context](../marketing-context/SKILL.md) skill (5–10 minutes) or proceed with a few quick questions.
 2. **Confirm the job.** Restate the task, the audience, and what "done" looks like in one or two sentences before producing work.
-3. **Ask the user if they have any internal resources that can help.** Specifically transcripts (i.e. Otter) from SMEs, one-pagers, product pages, blogs, or VoC research from industry forums or Reddit
+3. **Ask the user if they have any internal resources that can help.** Specifically transcripts (i.e. Otter) from SMEs, one-pagers, product pages, blogs, or VoC research from industry forums or Reddit.
 
 ## Workflow
 
