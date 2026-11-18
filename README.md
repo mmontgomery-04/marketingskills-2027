@@ -2,7 +2,7 @@
 
 **27 plug-and-play marketing skills for AI agents** (Claude Code, Claude, Codex, Cursor, and any agent that reads `SKILL.md`). Built for B2B marketers: SEO and AI search, content and copy, email and outbound, paid, social, PR, CRO, UX, analytics, and RevOps.
 
-Created by **William (Monty) Montgomery**
+Created by **[William (Monty) Montgomery](https://www.linkedin.com/in/william-a-montgomery/)**
 
 ## How it works
 
@@ -137,4 +137,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Version history: [VERSIONS.md](VERSIONS.
 
 ## License
 
-[MIT](LICENSE) © 2026 William Montgomery
+[MIT](LICENSE) © 2026 [William Montgomery](https://www.linkedin.com/in/william-a-montgomery/)
