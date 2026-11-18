@@ -23,6 +23,31 @@
         "Addresses sample size",
         "Recommends higher-impact tests"
       ]
+    },
+    {
+      "id": 3,
+      "prompt": "Review our pricing page. We have three plans plus an enterprise tier, and most visitors leave without choosing one: [page].",
+      "expected_output": "Pricing-page priorities, objection answers, fix now / bigger bets / test first groups, 2-3 rewritten options for key copy.",
+      "files": [],
+      "assertions": [
+        "Recommends a highlighted plan and a one-line 'who it's for' per plan",
+        "Addresses billing, contract, or security questions near the plans",
+        "Groups recommendations into fix now, bigger bets, and test first",
+        "Gives 2-3 rewritten options for the headline or CTA with reasons",
+        "Does not invent proof"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Our demo form checks the company with an enrichment tool before showing a calendar. Sometimes the page just spins after submit.",
+      "expected_output": "Save the submission first, cap the lookup wait, default path for unknown leads, log outcomes.",
+      "files": [],
+      "assertions": [
+        "Says to save the submission before enrichment",
+        "Recommends a timeout on the lookup",
+        "Gives a fallback path for unknown or timed-out leads",
+        "Recommends logging routing outcomes"
+      ]
     }
   ]
 }

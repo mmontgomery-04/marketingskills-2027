@@ -1,5 +1,14 @@
 # Versions
 
+## cro 1.1.0 — 2026-11-17
+- Intake now asks for page type, what happens after the conversion, research on hand, and past tests.
+- Page audit reordered by impact, with common failure points, CTA wording, proof quality, and an objection-answer table.
+- New `references/page-types.md`: priorities and test ideas for homepage, landing, pricing, product, demo, and blog pages.
+- Output grouped into fix now / bigger bets / test first, with 2–3 rewritten options for headline, subhead, and CTA.
+- New rules: real proof only, no dark patterns.
+- Form optimization covers enrichment and routing fallbacks.
+- Two new evals (pricing page, enrichment routing).
+
 ## copywriting 1.1.0 — 2026-11-17
 - New **Don'ts** section: no claim without evidence (cut it or flag `[PROOF NEEDED]`), never invent proof, plus banned AI-ism words, phrases, and sentence structures.
 - "Remember the Don'ts" added to Before You Start; quality checklist points to the list.

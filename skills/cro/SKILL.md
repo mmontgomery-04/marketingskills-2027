@@ -1,8 +1,8 @@
 ---
 name: cro
-description: "Improves conversion rates on landing pages, homepages, pricing pages, forms, signup and demo flows, and in-product upgrade paths through audits, prioritized recommendations, and A/B testing. Use when the user asks why a page isn't converting, wants a CRO audit, landing page review, form optimization, more demo requests or signups, or help designing and reading an A/B test."
+description: "Improves conversion rates on landing pages, homepages, pricing pages, forms, signup and demo flows, and in-product upgrade paths through audits, prioritized recommendations, and A/B testing. Use when the user asks why visitors aren't converting, wants a CRO audit, landing page review, form optimization, more demo requests or signups, or help designing and reading an A/B test."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   author: William Montgomery
 ---
 
@@ -15,14 +15,21 @@ metadata:
 
 ## Workflow
 
-### 1. Get the numbers
-Traffic by source, conversion rate by source and device, funnel step drop-off, and the primary conversion. Without a baseline, recommendations are guesses.
+### 1. Get the numbers and the backstory
+Ask for whatever the context file doesn't already answer:
+- **Page type** and the **one conversion that counts** (demo request, trial, signup, download, contact).
+- **Baseline:** traffic by source, conversion rate by source and device, funnel step drop-off.
+- **What happens after the conversion:** thank-you page, scheduler, onboarding. A page that converts into a dead end isn't converting.
+- **Research on hand:** session recordings, heatmaps, on-page polls, sales call notes, support tickets.
+- **What's been tried:** past changes and tests and how they turned out, so you don't re-suggest a loser.
+
+Without a baseline, recommendations are guesses.
 
 ### 2. Understand intent
 Where do visitors come from and what did they expect? An ad promising a free template that lands on a demo page will fail no matter how good the page is.
 
 ### 3. Audit the page
-Run [page-audit.md](references/page-audit.md), scoring each area. Add qualitative evidence: session recordings, heatmaps, on-page polls, sales call objections.
+Run [page-audit.md](references/page-audit.md) top to bottom. Its areas are ordered by typical impact: if visitors can't tell what the product is, button wording won't rescue the page. Back each finding with evidence (data, recordings, polls, sales objections). For what matters most on homepages, landing, pricing, product, demo, and blog pages, use [page-types.md](references/page-types.md).
 
 ### 4. Prioritize
 Score each idea with ICE (Impact, Confidence, Ease: 1–10 each). Ship obvious fixes (broken forms, slow load, mismatched message) immediately; **test** the uncertain ones.
@@ -34,16 +41,28 @@ Use [ab-testing.md](references/ab-testing.md): hypothesis, sample size, duration
 Forms are the highest-leverage element on most B2B pages: [form-optimization.md](references/form-optimization.md).
 
 ## Output
-| # | Issue | Evidence | Recommendation | ICE | Test or ship? |
+Sort recommendations into three groups:
+1. **Fix now:** clear problems that are cheap to fix (broken form, message mismatch, no proof near the CTA).
+2. **Bigger bets:** changes that need design, development, or new assets but go after the biggest issues.
+3. **Test first:** ideas where the evidence is mixed. Write each as a hypothesis ([ab-testing.md](references/ab-testing.md)).
+
+Then the detail table:
+
+| # | Issue | Evidence | Recommendation | ICE | Group |
 |---|---|---|---|---|---|
 
-Include rewritten copy (via copywriting) for the top recommendations, not just "improve the headline".
+For the headline, subhead, and primary CTA, write 2–3 options with a one-line reason each, using copywriting's rules and Don'ts. "Improve the headline" is not a recommendation; a rewritten headline is.
+
+## Rules
+- **Real proof only.** Any proof you suggest adding (stats, logos, testimonials) must exist. Mark gaps `[PROOF NEEDED]`; never fill them in.
+- **No dark patterns:** fake countdowns or scarcity, pre-checked consent boxes, guilt-trip decline links, prices revealed only at the last step. They can lift one number while costing trust, refunds, and compliance.
 
 ## References
 
 Load these only when the task needs the detail:
 
 - [Landing Page Audit](references/page-audit.md)
+- [CRO by Page Type](references/page-types.md)
 - [A/B Testing](references/ab-testing.md)
 - [Form Optimization](references/form-optimization.md)
 
