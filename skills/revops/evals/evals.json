@@ -1,0 +1,28 @@
+{
+  "skill_name": "revops",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Sales says our MQLs are garbage. Fix our lead scoring.",
+      "expected_output": "Aligns definitions, fit+engagement model, thresholds, rejection reasons, calibration loop.",
+      "files": [],
+      "assertions": [
+        "Proposes shared stage definitions",
+        "Separates fit and engagement",
+        "Requires rejection reasons",
+        "Includes calibration step"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "What dashboards should our CMO look at weekly?",
+      "expected_output": "Dashboard spec with metrics and formulas.",
+      "files": [],
+      "assertions": [
+        "Includes pipeline by source",
+        "Defines formulas",
+        "Segments by channel/segment"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "skill_name": "gtm-strategy",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Build a GTM plan to take our HR analytics product into the UK mid-market.",
+      "expected_output": "One-page plan with segment rationale, motion choice, pipeline math, channels, 90-day milestones.",
+      "files": [],
+      "assertions": [
+        "Justifies segment choice",
+        "Chooses a motion with reasoning",
+        "Includes pipeline math",
+        "Limits to 2\u20133 primary channels",
+        "Lists risks"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "How many MQLs do we need to hit $5M in new ARR with a $40K ACV?",
+      "expected_output": "Backwards funnel math with labeled assumptions.",
+      "files": [],
+      "assertions": [
+        "Shows step-by-step math",
+        "Labels assumed conversion rates"
+      ]
+    }
+  ]
+}

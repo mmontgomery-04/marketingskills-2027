@@ -1,0 +1,28 @@
+{
+  "skill_name": "social-media-targeting",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Build LinkedIn audiences to reach heads of security at mid-market healthcare companies for our ABM campaign.",
+      "expected_output": "ICP sentence, layered audiences, company list upload, exclusions, size guidance, audience matrix.",
+      "files": [],
+      "assertions": [
+        "Writes the audience as a sentence first",
+        "Uses prospecting/engaged/retargeting layers",
+        "Includes exclusions",
+        "Uses company matched audiences for ABM",
+        "Outputs an audience matrix"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Can we target CFOs on Meta?",
+      "expected_output": "Explains weak native B2B targeting; recommends custom audiences, lookalikes, retargeting.",
+      "files": [],
+      "assertions": [
+        "Notes Meta's weak B2B firmographics",
+        "Recommends custom audiences/lookalikes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "marketing-skills-2027",
+  "version": "1.0.0",
+  "description": "B2B marketing skills for AI agents: SEO, AI search, content, copywriting, email, cold outbound, paid, social, PR, events, CRO, UX, analytics, RevOps, and GTM.",
+  "author": {
+    "name": "William Montgomery"
+  },
+  "license": "MIT",
+  "skills": "./skills/"
+}

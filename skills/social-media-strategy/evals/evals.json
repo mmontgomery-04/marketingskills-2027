@@ -1,0 +1,28 @@
+{
+  "skill_name": "social-media-strategy",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Build a LinkedIn strategy for our founder and company page. We sell compliance software to fintechs.",
+      "expected_output": "Goals, people-first plan, pillars, cadence, engagement routine, KPIs, 4-week calendar.",
+      "files": [],
+      "assertions": [
+        "Prioritizes personal profiles",
+        "Defines 3\u20135 pillars",
+        "Includes engagement routine",
+        "Gives a 4-week calendar",
+        "Avoids engagement pods"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Which social platforms should a DevOps tooling company focus on?",
+      "expected_output": "Platform choice grounded in ICP habits (likely LinkedIn + X/Reddit/YouTube), with reasoning.",
+      "files": [],
+      "assertions": [
+        "Grounds platform choice in where the ICP is",
+        "Limits to a primary + secondary channel"
+      ]
+    }
+  ]
+}

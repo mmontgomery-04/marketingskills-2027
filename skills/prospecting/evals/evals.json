@@ -1,0 +1,28 @@
+{
+  "skill_name": "prospecting",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Build me a prospecting plan for selling our data observability tool to fintechs in North America.",
+      "expected_output": "ICP filters, signal prioritization, research briefs, multi-threading, cadence.",
+      "files": [],
+      "assertions": [
+        "Translates ICP into tool filters",
+        "Prioritizes by signals",
+        "Multi-threads the buying committee",
+        "Includes a multichannel cadence"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Research Ramp as a prospect for our procurement software.",
+      "expected_output": "Account research brief.",
+      "files": [],
+      "assertions": [
+        "Uses account brief structure",
+        "Includes pain hypothesis",
+        "Identifies buying committee roles"
+      ]
+    }
+  ]
+}

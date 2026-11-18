@@ -1,0 +1,30 @@
+{
+  "skill_name": "paid-search",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Set up a Google Ads account for our HR software. Budget $15K/month, goal is demos.",
+      "expected_output": "Measurement/offline conversions first, structure with brand/non-brand/competitor, keywords and negatives, RSA guidance, bidding path, landing pages, campaign table.",
+      "files": [],
+      "assertions": [
+        "Requires conversion tracking before spend",
+        "Recommends offline conversion import",
+        "Separates brand and non-brand",
+        "Includes negative keywords",
+        "Respects RSA character limits",
+        "Outputs a campaign plan table"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Our Google Ads leads are junk. Fix it.",
+      "expected_output": "Optimize to pipeline, negatives, qualifying ad copy, PMax review, landing page and form qualification.",
+      "files": [],
+      "assertions": [
+        "Recommends optimizing to downstream conversions",
+        "Suggests qualifying ad copy",
+        "Reviews search terms/negatives"
+      ]
+    }
+  ]
+}

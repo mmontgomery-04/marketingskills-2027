@@ -1,0 +1,29 @@
+{
+  "skill_name": "content-strategy",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We're a cybersecurity startup with a new blog. What should we write about for the next quarter?",
+      "expected_output": "Goal anchoring, pillars and spokes from ICP pains, funnel tags, BOFU priority, scored table, 90-day calendar.",
+      "files": [],
+      "assertions": [
+        "Defines 3\u20136 pillars",
+        "Tags topics by funnel stage",
+        "Prioritizes BOFU for new domains",
+        "Includes scoring",
+        "Outputs a calendar"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Audit our 200 blog posts and tell me what to do with them.",
+      "expected_output": "Keep/Refresh/Consolidate/Prune framework with data criteria.",
+      "files": [],
+      "assertions": [
+        "Uses keep/refresh/consolidate/prune",
+        "Asks for traffic/conversion data",
+        "Mentions 301s for consolidation"
+      ]
+    }
+  ]
+}

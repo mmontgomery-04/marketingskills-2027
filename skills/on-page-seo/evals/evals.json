@@ -1,0 +1,40 @@
+{
+  "skill_name": "on-page-seo",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Optimize this blog post for the keyword 'sales pipeline management'. Here's the draft: [draft].",
+      "expected_output": "SERP analysis, element-by-element checklist table, 10x gaps, top 5 fixes.",
+      "files": [],
+      "assertions": [
+        "Recommends a 60\u201370 char title with keyword near start",
+        "Recommends a 155\u2013160 char meta description",
+        "Suggests 3\u20135 PAA-based FAQs",
+        "Outputs a Current/Recommended/Why table",
+        "Flags missing citations for stats"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Write an SEO brief for a pillar page on 'B2B lead scoring'.",
+      "expected_output": "Brief with title, H1, meta, outline of question-based H2s, length target ~2.5K\u20133K, internal link targets, FAQs, image names.",
+      "files": [],
+      "assertions": [
+        "Targets pillar length",
+        "Uses question-based H2s",
+        "Includes hyphenated image file names",
+        "Lists internal link targets"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Our site isn't getting indexed by Google.",
+      "expected_output": "Should route to technical-seo rather than on-page fixes.",
+      "files": [],
+      "assertions": [
+        "Recognizes this is a technical-seo task",
+        "Does not run the on-page checklist"
+      ]
+    }
+  ]
+}

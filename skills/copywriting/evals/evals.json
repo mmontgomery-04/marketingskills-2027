@@ -1,0 +1,39 @@
+{
+  "skill_name": "copywriting",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Write homepage hero copy for an AP automation tool for mid-market finance teams.",
+      "expected_output": "Outcome headline, who/how subhead, 2\u20133 variants with rationale, CTA, no buzzwords.",
+      "files": [],
+      "assertions": [
+        "Gives 2\u20133 headline variants with rationale",
+        "Leads with an outcome",
+        "Includes a specific CTA",
+        "Avoids banned buzzwords"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Write a LinkedIn ad and a Google search ad for our webinar on cloud cost optimization, aimed at CFOs.",
+      "expected_output": "Format-appropriate copy per channel, written for the economic buyer, respecting character limits.",
+      "files": [],
+      "assertions": [
+        "Respects Google ad character limits",
+        "Writes for economic buyer",
+        "Varies approach by channel"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Make this case study sound more technical for an IT audience: [text].",
+      "expected_output": "Technical style rewrite with redline table.",
+      "files": [],
+      "assertions": [
+        "Uses technical style",
+        "Returns original/revised/why table",
+        "Keeps outcomes up front"
+      ]
+    }
+  ]
+}

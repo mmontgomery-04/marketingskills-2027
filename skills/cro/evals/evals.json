@@ -1,0 +1,28 @@
+{
+  "skill_name": "cro",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Our demo page converts at 0.8%. Here's the URL and copy: [page]. How do we improve it?",
+      "expected_output": "Baseline questions, intent check, audit table with evidence, ICE prioritization, rewritten copy.",
+      "files": [],
+      "assertions": [
+        "Asks for traffic/source data",
+        "Checks message match",
+        "Uses ICE prioritization",
+        "Provides rewritten copy",
+        "Separates ship vs test"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Should we A/B test our button color? We get 2,000 visitors a month.",
+      "expected_output": "Explains low-traffic constraints; suggests bigger tests or qualitative methods.",
+      "files": [],
+      "assertions": [
+        "Addresses sample size",
+        "Recommends higher-impact tests"
+      ]
+    }
+  ]
+}

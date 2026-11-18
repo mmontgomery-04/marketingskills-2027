@@ -1,0 +1,28 @@
+{
+  "skill_name": "competitor-research",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Do a competitive analysis of Gong vs Clari vs Outreach for our revenue intelligence startup.",
+      "expected_output": "Defines set incl. status quo, fills template from sources, synthesizes openings, suggests activations.",
+      "files": [],
+      "assertions": [
+        "Includes status-quo competitor",
+        "Uses review mining",
+        "Cites sources with dates",
+        "Identifies openings for us"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Make a sales battlecard for competing against HubSpot.",
+      "expected_output": "One-page battlecard with proof, landmines, objections.",
+      "files": [],
+      "assertions": [
+        "Follows battlecard structure",
+        "Includes landmine questions",
+        "Is honest about competitor strengths"
+      ]
+    }
+  ]
+}

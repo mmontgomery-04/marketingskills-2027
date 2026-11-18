@@ -1,0 +1,29 @@
+{
+  "skill_name": "ux-ui",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Do a UX audit of our SaaS onboarding flow: [screenshots/description].",
+      "expected_output": "Users/tasks, heuristic evaluation, severity-ranked issues with concrete fixes, validation suggestion.",
+      "files": [],
+      "assertions": [
+        "Identifies the activation event",
+        "Uses severity ratings",
+        "References heuristics",
+        "Gives concrete fixes",
+        "Suggests validation method"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Redesign the navigation for our B2B marketing site; we have 6 products and 4 industries.",
+      "expected_output": "IA recommendation with mega menu, solutions by role/industry, persistent CTA.",
+      "files": [],
+      "assertions": [
+        "Proposes nav structure",
+        "Includes persistent CTA",
+        "Suggests tree testing"
+      ]
+    }
+  ]
+}

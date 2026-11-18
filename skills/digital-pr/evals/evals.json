@@ -1,0 +1,29 @@
+{
+  "skill_name": "digital-pr",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We want backlinks from top tech publications for our cybersecurity startup. Plan a digital PR campaign.",
+      "expected_output": "Chooses campaign type (likely original data), angle, targets, assets, pitch, measurement including AI citations.",
+      "files": [],
+      "assertions": [
+        "Recommends a newsworthy data angle",
+        "Includes target list approach",
+        "Includes pitch template",
+        "Measures links and AI citations",
+        "Avoids fabricating data"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Write a press pitch for our Series B announcement.",
+      "expected_output": "Short pitch with news in subject, angle beyond the funding itself.",
+      "files": [],
+      "assertions": [
+        "Pitch under ~150 words",
+        "News in subject line",
+        "Finds a broader story angle"
+      ]
+    }
+  ]
+}

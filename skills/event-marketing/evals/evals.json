@@ -1,0 +1,29 @@
+{
+  "skill_name": "event-marketing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Plan a webinar to generate pipeline from mid-market IT directors for our endpoint management tool.",
+      "expected_output": "Goal, speaker strategy, timeline, promotion, follow-up segmentation, ROI metrics.",
+      "files": [],
+      "assertions": [
+        "Includes promotion timeline",
+        "Segments follow-up attendees vs no-shows",
+        "Includes pipeline metrics",
+        "Suggests repurposing"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "We're exhibiting at Dreamforce. How do we get the most pipeline?",
+      "expected_output": "Pre-booked meetings, booth strategy, lead capture notes, side events, 24h follow-up.",
+      "files": [],
+      "assertions": [
+        "Recommends pre-booking meetings",
+        "Includes qualification notes",
+        "Suggests side events for top accounts",
+        "Fast follow-up"
+      ]
+    }
+  ]
+}

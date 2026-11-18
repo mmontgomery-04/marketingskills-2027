@@ -1,0 +1,28 @@
+{
+  "skill_name": "product-marketing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Help us position our new AI-powered contract review tool for in-house legal teams.",
+      "expected_output": "Runs positioning steps including alternatives, differentiators with proof, category choice, statement.",
+      "files": [],
+      "assertions": [
+        "Lists competitive alternatives including status quo",
+        "Tests differentiators for uniqueness",
+        "Produces positioning statement",
+        "Recommends buyer validation"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "We're launching a Salesforce integration next month. Plan the launch.",
+      "expected_output": "Tiers it (likely Tier 2), lists activities, hands off to other skills.",
+      "files": [],
+      "assertions": [
+        "Assigns a launch tier with rationale",
+        "Includes enablement",
+        "Includes success metrics"
+      ]
+    }
+  ]
+}

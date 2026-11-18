@@ -1,0 +1,29 @@
+{
+  "skill_name": "analytics",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Set up conversion tracking for our demo form in GA4 using GTM. The form is a HubSpot embed.",
+      "expected_output": "dataLayer push from HubSpot callback, GTM tag/trigger with naming conventions, GA4 key event, QA steps.",
+      "files": [],
+      "assertions": [
+        "Uses success-based trigger not button click",
+        "Handles HubSpot form callback",
+        "Marks key event in GA4",
+        "Includes QA via Preview/DebugView"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Build a tracking plan for our B2B SaaS website.",
+      "expected_output": "Questions first, event table with parameters, key events, UTM rules.",
+      "files": [],
+      "assertions": [
+        "Starts from business questions",
+        "Uses snake_case event names",
+        "Limits key events",
+        "Includes UTM governance"
+      ]
+    }
+  ]
+}

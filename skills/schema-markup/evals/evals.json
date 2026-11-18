@@ -1,0 +1,38 @@
+{
+  "skill_name": "schema-markup",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Add schema to our blog post template. Posts have an author, FAQ section, and featured image.",
+      "expected_output": "BlogPosting + FAQPage + BreadcrumbList JSON-LD with @id links to Organization and Person.",
+      "files": [],
+      "assertions": [
+        "Outputs valid JSON-LD",
+        "Links publisher via @id",
+        "Only marks up visible FAQs",
+        "Mentions Rich Results Test validation"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Add special schema so we show up in Google AI Overviews.",
+      "expected_output": "Explains there is no special AI schema; recommends standard schema plus SEO fundamentals.",
+      "files": [],
+      "assertions": [
+        "States no special AI schema exists",
+        "Does not invent AI-specific markup",
+        "Points to SEO fundamentals"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Why aren't my FAQ rich snippets showing anymore?",
+      "expected_output": "Explains Google's FAQ rich result restrictions; still recommends keeping markup for understanding.",
+      "files": [],
+      "assertions": [
+        "Explains rich result eligibility limits",
+        "Does not promise the SERP feature"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+# Skill Map
+
+Every skill reads `.agents/marketing-context.md` (created by `marketing-context`). Arrows show "Related Skills" handoffs.
+
+```mermaid
+graph LR
+    ai_search --> on_page_seo
+    ai_search --> schema_markup
+    ai_search --> digital_pr
+    ai_search --> competitor_research
+    ai_search --> analytics
+    analytics --> revops
+    analytics --> cro
+    analytics --> paid_search
+    analytics --> paid_social
+    analytics --> social_media_reporting
+    analytics --> ai_search
+    analytics --> technical_seo
+    cold_email --> prospecting
+    cold_email --> icp_targeting
+    cold_email --> copywriting
+    cold_email --> email_marketing
+    cold_email --> revops
+    competitor_research --> product_marketing
+    competitor_research --> ai_search
+    competitor_research --> paid_search
+    competitor_research --> on_page_seo
+    competitor_research --> copywriting
+    competitor_research --> marketing_context
+    content_strategy --> on_page_seo
+    content_strategy --> copywriting
+    content_strategy --> lead_magnets
+    content_strategy --> ai_search
+    content_strategy --> icp_targeting
+    content_strategy --> social_media_strategy
+    copywriting --> product_marketing
+    copywriting --> cro
+    copywriting --> on_page_seo
+    copywriting --> email_marketing
+    copywriting --> cold_email
+    copywriting --> paid_search
+    copywriting --> paid_social
+    copywriting --> lead_magnets
+    cro --> copywriting
+    cro --> ux_ui
+    cro --> analytics
+    cro --> lead_magnets
+    cro --> paid_search
+    cro --> paid_social
+    digital_pr --> ai_search
+    digital_pr --> on_page_seo
+    digital_pr --> content_strategy
+    digital_pr --> lead_magnets
+    digital_pr --> influencer_marketing
+    digital_pr --> social_media_strategy
+    email_marketing --> cold_email
+    email_marketing --> copywriting
+    email_marketing --> lead_magnets
+    email_marketing --> revops
+    email_marketing --> analytics
+    email_marketing --> event_marketing
+    event_marketing --> email_marketing
+    event_marketing --> paid_social
+    event_marketing --> lead_magnets
+    event_marketing --> revops
+    event_marketing --> schema_markup
+    event_marketing --> influencer_marketing
+    gtm_strategy --> product_marketing
+    gtm_strategy --> icp_targeting
+    gtm_strategy --> revops
+    gtm_strategy --> analytics
+    gtm_strategy --> paid_search
+    gtm_strategy --> paid_social
+    gtm_strategy --> event_marketing
+    gtm_strategy --> prospecting
+    icp_targeting --> marketing_context
+    icp_targeting --> prospecting
+    icp_targeting --> social_media_targeting
+    icp_targeting --> paid_social
+    icp_targeting --> revops
+    icp_targeting --> gtm_strategy
+    influencer_marketing --> social_media_strategy
+    influencer_marketing --> paid_social
+    influencer_marketing --> event_marketing
+    influencer_marketing --> digital_pr
+    influencer_marketing --> analytics
+    lead_magnets --> content_strategy
+    lead_magnets --> copywriting
+    lead_magnets --> cro
+    lead_magnets --> email_marketing
+    lead_magnets --> event_marketing
+    lead_magnets --> revops
+    lead_magnets --> digital_pr
+    marketing_context --> icp_targeting
+    marketing_context --> product_marketing
+    marketing_context --> competitor_research
+    on_page_seo --> technical_seo
+    on_page_seo --> ai_search
+    on_page_seo --> schema_markup
+    on_page_seo --> content_strategy
+    on_page_seo --> copywriting
+    paid_search --> analytics
+    paid_search --> cro
+    paid_search --> copywriting
+    paid_search --> competitor_research
+    paid_search --> revops
+    paid_search --> on_page_seo
+    paid_social --> social_media_targeting
+    paid_social --> copywriting
+    paid_social --> analytics
+    paid_social --> cro
+    paid_social --> lead_magnets
+    paid_social --> influencer_marketing
+    paid_social --> social_media_reporting
+    product_marketing --> marketing_context
+    product_marketing --> gtm_strategy
+    product_marketing --> competitor_research
+    product_marketing --> copywriting
+    product_marketing --> icp_targeting
+    product_marketing --> lead_magnets
+    prospecting --> icp_targeting
+    prospecting --> cold_email
+    prospecting --> revops
+    prospecting --> competitor_research
+    prospecting --> social_media_targeting
+    revops --> analytics
+    revops --> icp_targeting
+    revops --> email_marketing
+    revops --> gtm_strategy
+    revops --> prospecting
+    revops --> social_media_reporting
+    schema_markup --> on_page_seo
+    schema_markup --> technical_seo
+    schema_markup --> ai_search
+    schema_markup --> event_marketing
+    social_media_reporting --> analytics
+    social_media_reporting --> revops
+    social_media_reporting --> social_media_strategy
+    social_media_reporting --> paid_social
+    social_media_reporting --> social_media_targeting
+    social_media_strategy --> social_media_targeting
+    social_media_strategy --> social_media_reporting
+    social_media_strategy --> content_strategy
+    social_media_strategy --> copywriting
+    social_media_strategy --> influencer_marketing
+    social_media_strategy --> paid_social
+    social_media_targeting --> icp_targeting
+    social_media_targeting --> paid_social
+    social_media_targeting --> prospecting
+    social_media_targeting --> social_media_strategy
+    social_media_targeting --> analytics
+    technical_seo --> on_page_seo
+    technical_seo --> schema_markup
+    technical_seo --> ai_search
+    technical_seo --> analytics
+    technical_seo --> ux_ui
+    ux_ui --> cro
+    ux_ui --> copywriting
+    ux_ui --> technical_seo
+    ux_ui --> analytics
+    ux_ui --> icp_targeting
+```
+
+## Common workflows
+
+| Goal | Skill chain |
+|---|---|
+| Launch a product | marketing-context → product-marketing → gtm-strategy → copywriting → lead-magnets → paid-social / email-marketing → analytics |
+| Rank and get cited for a topic | content-strategy → on-page-seo → schema-markup → technical-seo → ai-search → digital-pr |
+| Build outbound pipeline | icp-targeting → prospecting → cold-email → revops |
+| Run an ABM program | icp-targeting → social-media-targeting → paid-social → prospecting → event-marketing → revops |
+| Improve conversion | analytics → cro → ux-ui → copywriting |
+| Prove social ROI | social-media-strategy → social-media-reporting → revops |

@@ -1,0 +1,28 @@
+{
+  "skill_name": "marketing-context",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Set up marketing context for my company. We sell a SOC 2 compliance automation platform to Series A\u2013C SaaS startups.",
+      "expected_output": "Checks for an existing file, offers auto-draft vs interview, drafts sections using the template, flags inferred fields, saves to .agents/marketing-context.md.",
+      "files": [],
+      "assertions": [
+        "Checks whether .agents/marketing-context.md exists",
+        "Uses the template sections",
+        "Marks inferred content for confirmation",
+        "States the save path"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Our pricing changed and we dropped our SMB tier. Update my context.",
+      "expected_output": "Reads existing file, edits only the affected sections, updates Last updated date.",
+      "files": [],
+      "assertions": [
+        "Reads the existing file before editing",
+        "Does not rewrite unrelated sections",
+        "Updates the date"
+      ]
+    }
+  ]
+}

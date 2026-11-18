@@ -1,0 +1,28 @@
+{
+  "skill_name": "paid-social",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Plan a LinkedIn Ads program for our data platform. $25K/month budget, targeting data leaders at enterprise companies.",
+      "expected_output": "Full-funnel structure, measurement with CAPI and CRM sync, audiences with exclusions, formats incl. Thought Leader and Document ads, creative concepts, cost-per-opportunity KPI.",
+      "files": [],
+      "assertions": [
+        "Uses a full-funnel structure",
+        "Includes CAPI/CRM integration",
+        "Turns off Audience Expansion/LAN initially",
+        "Includes creative concepts with copy",
+        "Judges success by pipeline not CPL"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Our LinkedIn ads CTR dropped by half over 6 weeks.",
+      "expected_output": "Diagnoses creative fatigue/frequency, audience saturation; recommends refresh and new angles.",
+      "files": [],
+      "assertions": [
+        "Checks frequency/creative fatigue",
+        "Recommends new creative angles"
+      ]
+    }
+  ]
+}

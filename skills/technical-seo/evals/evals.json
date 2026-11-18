@@ -1,0 +1,28 @@
+{
+  "skill_name": "technical-seo",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Our traffic dropped 40% after we moved from WordPress to Webflow last month. What happened?",
+      "expected_output": "Uses the migration playbook: checks redirect map, canonicals, indexing, content parity; asks for GSC data.",
+      "files": [],
+      "assertions": [
+        "Asks for or references Search Console data",
+        "Checks redirect mapping",
+        "Checks content parity",
+        "Gives a prioritized fix list"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Run a technical SEO audit on example.com (crawl export attached).",
+      "expected_output": "Severity-grouped findings table and 30/60/90 plan.",
+      "files": [],
+      "assertions": [
+        "Follows crawl\u2192index\u2192architecture\u2192rendering\u2192performance order",
+        "Uses severity table",
+        "Includes 30/60/90 plan"
+      ]
+    }
+  ]
+}

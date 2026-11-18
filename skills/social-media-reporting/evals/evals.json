@@ -1,0 +1,29 @@
+{
+  "skill_name": "social-media-reporting",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a monthly social media report for our LinkedIn company page and founder's profile. Data attached.",
+      "expected_output": "Template with TL;DR, scorecard vs prior period, top/bottom posts, audience quality, pipeline, keep/stop/try.",
+      "files": [],
+      "assertions": [
+        "Leads with insights",
+        "Compares to prior period",
+        "Separates organic and paid if both",
+        "Ends with keep/stop/try",
+        "Addresses pipeline impact"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "My CEO says LinkedIn doesn't generate pipeline. How do I prove it does?",
+      "expected_output": "Dark social explanation, self-reported attribution, influenced pipeline, branded search trends.",
+      "files": [],
+      "assertions": [
+        "Explains dark social",
+        "Recommends self-reported attribution field",
+        "Uses influenced pipeline"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "description": "Each prompt should activate the listed skill (and not a neighbor).",
+  "cases": [
+    {
+      "prompt": "Optimize the title tag and meta description for our blog post",
+      "expected_skill": "on-page-seo"
+    },
+    {
+      "prompt": "Our pages aren't being indexed by Google",
+      "expected_skill": "technical-seo"
+    },
+    {
+      "prompt": "How do we get recommended by ChatGPT and Perplexity?",
+      "expected_skill": "ai-search"
+    },
+    {
+      "prompt": "Add FAQ structured data to this page",
+      "expected_skill": "schema-markup"
+    },
+    {
+      "prompt": "Set up tracking for our demo form in GTM",
+      "expected_skill": "analytics"
+    },
+    {
+      "prompt": "Write a 5-email onboarding sequence for trial users",
+      "expected_skill": "email-marketing"
+    },
+    {
+      "prompt": "Write a cold email to VPs of Finance",
+      "expected_skill": "cold-email"
+    },
+    {
+      "prompt": "Who are our main competitors and how do they position?",
+      "expected_skill": "competitor-research"
+    },
+    {
+      "prompt": "Plan our blog topics for next quarter",
+      "expected_skill": "content-strategy"
+    },
+    {
+      "prompt": "Rewrite our homepage headline",
+      "expected_skill": "copywriting"
+    },
+    {
+      "prompt": "Why is our pricing page not converting?",
+      "expected_skill": "cro"
+    },
+    {
+      "prompt": "Find LinkedIn creators to promote our launch",
+      "expected_skill": "influencer-marketing"
+    },
+    {
+      "prompt": "Create a downloadable checklist to capture leads",
+      "expected_skill": "lead-magnets"
+    },
+    {
+      "prompt": "Plan our booth strategy for a trade show",
+      "expected_skill": "event-marketing"
+    },
+    {
+      "prompt": "Define our ideal customer profile",
+      "expected_skill": "icp-targeting"
+    },
+    {
+      "prompt": "Help us position our new product against incumbents",
+      "expected_skill": "product-marketing"
+    },
+    {
+      "prompt": "Build a go-to-market plan for entering Europe",
+      "expected_skill": "gtm-strategy"
+    },
+    {
+      "prompt": "Build a list of target accounts with buying signals",
+      "expected_skill": "prospecting"
+    },
+    {
+      "prompt": "Get press coverage for our new research report",
+      "expected_skill": "digital-pr"
+    },
+    {
+      "prompt": "Sales and marketing disagree on what an MQL is",
+      "expected_skill": "revops"
+    },
+    {
+      "prompt": "What should our LinkedIn posting strategy be?",
+      "expected_skill": "social-media-strategy"
+    },
+    {
+      "prompt": "How do I target CISOs with LinkedIn ads audiences?",
+      "expected_skill": "social-media-targeting"
+    },
+    {
+      "prompt": "Build a monthly social media report",
+      "expected_skill": "social-media-reporting"
+    },
+    {
+      "prompt": "Restructure our Google Ads account",
+      "expected_skill": "paid-search"
+    },
+    {
+      "prompt": "Plan a LinkedIn Ads campaign for our webinar",
+      "expected_skill": "paid-social"
+    },
+    {
+      "prompt": "Audit our app onboarding UX",
+      "expected_skill": "ux-ui"
+    },
+    {
+      "prompt": "Set up context about my company so you remember it",
+      "expected_skill": "marketing-context"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "skill_name": "icp-targeting",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Help me define our ICP. We sell expense management software and have 300 customers.",
+      "expected_output": "Asks for closed-won/lost data, builds firmographic/technographic ICP, triggers, negative ICP, personas, tiers.",
+      "files": [],
+      "assertions": [
+        "Grounds ICP in customer data",
+        "Includes negative ICP",
+        "Includes trigger events",
+        "Defines tiers"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Turn our ICP into LinkedIn Sales Navigator and LinkedIn Ads filters.",
+      "expected_output": "Filter table per tool.",
+      "files": [],
+      "assertions": [
+        "Maps criteria to specific tool filters",
+        "Covers both Sales Navigator and LinkedIn Ads"
+      ]
+    }
+  ]
+}

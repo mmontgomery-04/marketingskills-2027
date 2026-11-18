@@ -1,0 +1,28 @@
+{
+  "skill_name": "lead-magnets",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a one-pager for our endpoint security product to hand out at a trade show.",
+      "expected_output": "One-pager in the standard layout with outcome headline, 3 benefits, proof, CTA/QR.",
+      "files": [],
+      "assertions": [
+        "Follows one-pager layout",
+        "Includes proof point",
+        "Includes CTA suitable for events",
+        "Fits one page"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "What lead magnet should we build to capture more mid-funnel leads for our RevOps consulting firm?",
+      "expected_output": "Recommends 2\u20133 formats with rationale, gating decision, follow-up plan.",
+      "files": [],
+      "assertions": [
+        "Recommends specific formats with rationale",
+        "Addresses gating",
+        "Includes follow-up sequence"
+      ]
+    }
+  ]
+}

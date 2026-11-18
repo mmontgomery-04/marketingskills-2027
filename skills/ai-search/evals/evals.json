@@ -1,0 +1,40 @@
+{
+  "skill_name": "ai-search",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "How do we get our product recommended by ChatGPT when people ask for the best project management tool for agencies?",
+      "expected_output": "Prompt-set baseline, owned content fixes, off-site source gaps, technical access, measurement.",
+      "files": [],
+      "assertions": [
+        "Proposes a prompt set to baseline",
+        "Recommends answer-first passages",
+        "Addresses third-party sources/reviews",
+        "Mentions AI crawler access",
+        "Defines AI share of voice metric"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Rewrite this section so LLMs are more likely to quote it: [section].",
+      "expected_output": "Answer-first, specific, reader-first rewrite without artificial chunking.",
+      "files": [],
+      "assertions": [
+        "Leads with a direct answer",
+        "Removes vague adjectives",
+        "Does not fragment content artificially"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Should we add an llms.txt file and chunk our blog posts for AI?",
+      "expected_output": "Explains Google's guidance that neither is needed; llms.txt only useful for dev docs/agents.",
+      "files": [],
+      "assertions": [
+        "Says Google Search doesn't use llms.txt",
+        "Discourages artificial chunking",
+        "Redirects to fundamentals and original content"
+      ]
+    }
+  ]
+}

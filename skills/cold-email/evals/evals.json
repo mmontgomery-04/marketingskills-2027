@@ -1,0 +1,29 @@
+{
+  "skill_name": "cold-email",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Write a 5-step cold email sequence to Heads of IT at 200\u20131,000 employee healthcare companies for our identity management product.",
+      "expected_output": "Researched hooks, short emails, new angle per step, lowercase subjects, soft CTAs.",
+      "files": [],
+      "assertions": [
+        "Emails under ~125 words",
+        "Each follow-up adds a new angle",
+        "Soft interest-based CTA on touch 1",
+        "Subject lines short and lowercase",
+        "Industry-specific pain"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "We're sending cold email from our main domain and landing in spam.",
+      "expected_output": "Infrastructure fixes: secondary domains, auth, warmup, volume limits.",
+      "files": [],
+      "assertions": [
+        "Recommends secondary domains",
+        "Mentions SPF/DKIM/DMARC",
+        "Mentions warmup and volume caps"
+      ]
+    }
+  ]
+}

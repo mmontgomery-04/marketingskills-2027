@@ -1,0 +1,28 @@
+{
+  "skill_name": "influencer-marketing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Plan an influencer program to reach finance leaders for our FP&A software launch.",
+      "expected_output": "Practitioner creators on LinkedIn/newsletters/podcasts, vetting, model selection, brief, disclosure, measurement.",
+      "files": [],
+      "assertions": [
+        "Prioritizes niche practitioner creators",
+        "Includes vetting criteria",
+        "Addresses FTC disclosure",
+        "Includes self-reported attribution"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Write a brief for a LinkedIn creator promoting our webinar.",
+      "expected_output": "Brief with one message, facts, disclosure, creative freedom.",
+      "files": [],
+      "assertions": [
+        "Includes disclosure requirement",
+        "Leaves voice to the creator",
+        "Defines deliverables and dates"
+      ]
+    }
+  ]
+}

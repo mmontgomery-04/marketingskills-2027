@@ -1,0 +1,39 @@
+{
+  "skill_name": "email-marketing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Write a 5-email nurture sequence for people who downloaded our 'Cloud Cost Benchmark Report'.",
+      "expected_output": "Sequence table with triggers, goals, exits, and full copy moving MOFU\u2192BOFU.",
+      "files": [],
+      "assertions": [
+        "Includes sequence table",
+        "Defines exit conditions",
+        "One CTA per email",
+        "Ends with BOFU offer",
+        "Provides subject variants"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Our newsletter open rates dropped from 40% to 22%.",
+      "expected_output": "Diagnoses deliverability, list hygiene, Apple MPP effects; recommends click/reply metrics.",
+      "files": [],
+      "assertions": [
+        "Checks authentication/deliverability",
+        "Mentions list hygiene",
+        "Notes open-rate unreliability"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Write a cold email to VP Sales at companies using Salesforce.",
+      "expected_output": "Should route to cold-email.",
+      "files": [],
+      "assertions": [
+        "Recognizes this as cold outreach",
+        "Routes to cold-email"
+      ]
+    }
+  ]
+}
