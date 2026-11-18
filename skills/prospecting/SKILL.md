@@ -2,7 +2,7 @@
 name: prospecting
 description: "Finds, researches, and prioritizes prospects for outbound: building target account and contact lists, buying signals and intent data, account research briefs, multi-threading the buying committee, and multichannel outreach cadences (email, LinkedIn, phone). Use when the user asks to build a prospect list, research an account, find decision makers, use intent or trigger signals, or plan an SDR/BDR outreach cadence. Writing the emails themselves belongs to cold-email."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
   author: William Montgomery
 ---
 
@@ -12,6 +12,7 @@ metadata:
 
 1. **Load shared context.** If `.agents/marketing-context.md` exists, read it first and only ask for what's missing. If it doesn't exist, offer to run the [marketing-context](../marketing-context/SKILL.md) skill (5–10 minutes) or proceed with a few quick questions.
 2. **Confirm the job.** Restate the task, the audience, and what "done" looks like in one or two sentences before producing work.
+3. **Write like a person.** Any copy you produce (emails, posts, ads, pages, briefs) follows the [copywriting's Don'ts](../copywriting/SKILL.md): no em dashes, no "it's not X, it's Y" framing, no choppy fragment stacks or repetition for effect; use flowing prose in second person with contractions.
 
 ## Workflow
 
@@ -56,8 +57,9 @@ Load these only when the task needs the detail:
 
 ## Related Skills
 
-- [icp-targeting](../icp-targeting/SKILL.md) — who to prospect
-- [cold-email](../cold-email/SKILL.md) — outreach copy
-- [revops](../revops/SKILL.md) — CRM hygiene and routing
-- [competitor-research](../competitor-research/SKILL.md) — displacement angles
-- [social-media-targeting](../social-media-targeting/SKILL.md) — LinkedIn audience overlap for air cover
+- [abm](../abm/SKILL.md): coordinated account plays
+- [icp-targeting](../icp-targeting/SKILL.md): who to prospect
+- [cold-email](../cold-email/SKILL.md): outreach copy
+- [revops](../revops/SKILL.md): CRM hygiene and routing
+- [competitor-research](../competitor-research/SKILL.md): displacement angles
+- [social-media-targeting](../social-media-targeting/SKILL.md): LinkedIn audience overlap for air cover

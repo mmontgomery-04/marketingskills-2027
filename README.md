@@ -1,6 +1,6 @@
 # Marketing Skills 2027
 
-**27 plug-and-play marketing skills for AI agents** (Claude Code, Claude, Codex, Cursor, and any agent that reads `SKILL.md`). Built for B2B marketers: SEO and AI search, content and copy, email and outbound, paid, social, PR, CRO, UX, analytics, and RevOps.
+**32 plug-and-play marketing skills for AI agents** (Claude Code, Claude, Codex, Cursor, and any agent that reads `SKILL.md`). Built for B2B marketers: SEO and AI search, content and copy, email and outbound, paid, social, PR, CRO, UX, analytics, and RevOps.
 
 Created by **[William (Monty) Montgomery](https://www.linkedin.com/in/william-a-montgomery/)**
 
@@ -78,6 +78,7 @@ More options: [docs/installing.md](docs/installing.md).
 | [product-marketing](skills/product-marketing/SKILL.md) | Owns positioning, messaging, and product launches: positioning statements, messaging houses, value propositions, competitive differentiation, launch tiering and plans, sales enablement (pitch narratives, battlecards, one-pagers), pricing and packaging messaging, and customer research. |
 | [gtm-strategy](skills/gtm-strategy/SKILL.md) | Builds go-to-market strategy and plans: market and segment selection, motion choice (product-led, sales-led, partner-led, ABM, hybrid), channel strategy, pricing go-to-market, launch plans, pipeline targets and funnel math, and GTM team alignment. |
 | [competitor-research](skills/competitor-research/SKILL.md) | Researches and analyzes competitors: positioning, messaging, pricing and packaging, product features, SEO and content footprint, paid ads, reviews (G2/Capterra), social presence, and AI search visibility; then turns findings into battlecards, comparison pages, and differentiation. |
+| [abm](skills/abm/SKILL.md) | Plans and runs account-based marketing for B2B: selecting and tiering target accounts, 1:1, 1:few, and 1:many plays, buying-committee coverage, intent and engagement signals, coordinated ads, outbound, content, direct mail, and events, sales and marketing orchestration, and account-level measurement. |
 
 ### Paid Acquisition
 
@@ -85,6 +86,7 @@ More options: [docs/installing.md](docs/installing.md).
 |---|---|
 | [paid-search](skills/paid-search/SKILL.md) | Plans, builds, and optimizes paid search for B2B: Google Ads and Microsoft Ads strategy, account and campaign structure, keyword research and match types, negative keywords, responsive search ads, bidding strategies, Performance Max, brand and competitor campaigns, landing page alignment, offline conversion imports, and budget pacing. |
 | [paid-social](skills/paid-social/SKILL.md) | Plans, launches, and optimizes paid social for B2B on LinkedIn Ads, Meta, YouTube, X, and Reddit: objectives, funnel structure, ad formats (single image, document, video, conversation, Thought Leader ads, lead gen forms), creative strategy and testing, budgets and bidding, frequency, CRM-integrated lead forms, and measurement. |
+| [retargeting](skills/retargeting/SKILL.md) | Plans and optimizes cross-channel retargeting (remarketing) for B2B: audience segments by behavior and recency, sequenced creative by page or content viewed, frequency caps, exclusions and burn pixels, CRM list retargeting, and setup on Google Ads, LinkedIn, Meta, YouTube, and Microsoft Ads, within consent and privacy limits. |
 
 ### Social
 
@@ -101,20 +103,23 @@ More options: [docs/installing.md](docs/installing.md).
 | [digital-pr](skills/digital-pr/SKILL.md) | Plans and executes digital PR to earn media coverage, high-authority backlinks, brand mentions, and AI search citations: data-driven stories and original research, newsjacking and reactive commentary, expert sourcing (Qwoted, Featured, HARO-style requests), journalist pitching, press releases, and podcast placements. |
 | [influencer-marketing](skills/influencer-marketing/SKILL.md) | Plans and runs B2B influencer and creator marketing: finding and vetting creators and niche experts (LinkedIn, YouTube, podcasts, newsletters), partnership models, briefs, compensation, contracts and FTC disclosure, employee advocacy, and measuring creator-driven pipeline. |
 | [event-marketing](skills/event-marketing/SKILL.md) | Plans, promotes, runs, and follows up on B2B events: webinars, virtual summits, trade shows and conferences, field events and executive dinners, user conferences, workshops, and community meetups, including budgets, promotion plans, booth strategy, lead capture, and post-event follow-up and ROI. |
+| [customer-advocacy](skills/customer-advocacy/SKILL.md) | Builds customer advocacy and proof programs for B2B: case studies, customer quotes and testimonials, review generation on G2, Capterra, TrustRadius, and Gartner Peer Insights, reference programs for sales, customer advisory boards, customer speakers and co-marketing, and advocacy measurement. |
 
-### Conversion & Experience
+### Design, Conversion & Experience
 
 | Skill | What it does |
 |---|---|
 | [cro](skills/cro/SKILL.md) | Improves conversion rates on landing pages, homepages, pricing pages, forms, signup and demo flows, and in-product upgrade paths through audits, prioritized recommendations, and A/B testing. |
+| [graphic-design](skills/graphic-design/SKILL.md) | Directs and produces marketing graphic design: creative briefs, brand visual systems (color, type, imagery, layout grids), ad and social creative specs, one-pagers, infographics, slide decks, data visualization, email and web graphics, accessibility and contrast, and prompts or briefs for designers and AI design tools. |
 | [ux-ui](skills/ux-ui/SKILL.md) | Reviews and improves UX and UI for marketing sites and B2B SaaS products using strategy and best practices: information architecture, navigation, usability heuristics, visual hierarchy, design systems, accessibility (WCAG), responsive and mobile design, onboarding flows, dashboards, forms, and empty states. |
 
-### Measurement & Ops
+### Measurement & Operations
 
 | Skill | What it does |
 |---|---|
 | [analytics](skills/analytics/SKILL.md) | Plans and implements marketing analytics and measurement: tracking plans, event taxonomies, GA4 setup, Google Tag Manager implementation, UTM governance, conversion tracking for ad platforms, dashboards, attribution, and turning data into decisions. |
 | [revops](skills/revops/SKILL.md) | Designs and fixes revenue operations across marketing, sales, and CS: lifecycle stages (lead → MQL → SQL → opportunity → customer), lead scoring and routing, SLAs, CRM/MAP data hygiene, attribution, funnel and pipeline reporting, forecasting inputs, and GTM tech stack. |
+| [marketing-project-management](skills/marketing-project-management/SKILL.md) | Plans and runs marketing projects and operations: campaign briefs, timelines planned back from launch dates, owners and approvals (RACI), sprint planning for marketing teams, request intake and prioritization, launch checklists, status reporting, retrospectives, and setups in tools like Asana, Monday.com, ClickUp, Jira, or Notion. |
 
 ## Quick start
 

@@ -2,7 +2,7 @@
 name: ai-search
 description: "Improves visibility and citations in AI search and answer engines (ChatGPT, Perplexity, Gemini, Claude, Copilot, Google AI Overviews and AI Mode), also called GEO, AEO, or LLM SEO. Use when the user asks how to show up in ChatGPT, get cited by AI, track AI share of voice, optimize for AI Overviews, or write content LLMs will quote. Traditional ranking work belongs to on-page-seo and technical-seo."
 metadata:
-  version: 1.1.0
+  version: 1.1.1
   author: William Montgomery
 ---
 
@@ -66,6 +66,7 @@ Load these only when the task needs the detail:
 
 ## Related Skills
 
+- [customer-advocacy](../customer-advocacy/SKILL.md) — reviews and customer stories AI cites
 - [on-page-seo](../on-page-seo/SKILL.md) — the page fundamentals AI retrieval still relies on
 - [schema-markup](../schema-markup/SKILL.md) — entity and FAQ markup
 - [digital-pr](../digital-pr/SKILL.md) — earning mentions on the sources LLMs cite

@@ -1,0 +1,28 @@
+{
+  "skill_name": "abm",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Build an ABM program for our cybersecurity platform targeting 150 enterprise financial services companies.",
+      "expected_output": "Fit check, tiered list, buying-committee mapping, plays per tier and stage, orchestration rhythm, account-level measurement with a control group.",
+      "files": [],
+      "assertions": [
+        "Splits accounts into tiers",
+        "Maps the buying committee",
+        "Defines plays with exit signals",
+        "Includes sales orchestration rhythm",
+        "Measures at account level rather than MQLs"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "We have a $3K ACV product and want to do ABM.",
+      "expected_output": "Questions whether ABM fits at that ACV; suggests programmatic 1:many or segment-based demand gen instead.",
+      "files": [],
+      "assertions": [
+        "Checks ABM fit against ACV",
+        "Recommends a better-fit alternative"
+      ]
+    }
+  ]
+}

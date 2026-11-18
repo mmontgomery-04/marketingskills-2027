@@ -4,6 +4,15 @@ Every skill reads `.agents/marketing-context.md` (created by `marketing-context`
 
 ```mermaid
 graph LR
+    abm --> icp_targeting
+    abm --> prospecting
+    abm --> social_media_targeting
+    abm --> paid_social
+    abm --> retargeting
+    abm --> event_marketing
+    abm --> revops
+    abm --> customer_advocacy
+    ai_search --> customer_advocacy
     ai_search --> on_page_seo
     ai_search --> schema_markup
     ai_search --> digital_pr
@@ -33,6 +42,8 @@ graph LR
     content_strategy --> ai_search
     content_strategy --> icp_targeting
     content_strategy --> social_media_strategy
+    copywriting --> graphic_design
+    copywriting --> customer_advocacy
     copywriting --> product_marketing
     copywriting --> cro
     copywriting --> on_page_seo
@@ -47,6 +58,13 @@ graph LR
     cro --> lead_magnets
     cro --> paid_search
     cro --> paid_social
+    customer_advocacy --> copywriting
+    customer_advocacy --> ai_search
+    customer_advocacy --> product_marketing
+    customer_advocacy --> abm
+    customer_advocacy --> digital_pr
+    customer_advocacy --> event_marketing
+    customer_advocacy --> lead_magnets
     digital_pr --> ai_search
     digital_pr --> on_page_seo
     digital_pr --> content_strategy
@@ -59,12 +77,22 @@ graph LR
     email_marketing --> revops
     email_marketing --> analytics
     email_marketing --> event_marketing
+    event_marketing --> marketing_project_management
     event_marketing --> email_marketing
     event_marketing --> paid_social
     event_marketing --> lead_magnets
     event_marketing --> revops
     event_marketing --> schema_markup
     event_marketing --> influencer_marketing
+    graphic_design --> copywriting
+    graphic_design --> lead_magnets
+    graphic_design --> paid_social
+    graphic_design --> social_media_strategy
+    graphic_design --> ux_ui
+    graphic_design --> event_marketing
+    graphic_design --> retargeting
+    gtm_strategy --> abm
+    gtm_strategy --> marketing_project_management
     gtm_strategy --> product_marketing
     gtm_strategy --> icp_targeting
     gtm_strategy --> revops
@@ -73,6 +101,7 @@ graph LR
     gtm_strategy --> paid_social
     gtm_strategy --> event_marketing
     gtm_strategy --> prospecting
+    icp_targeting --> abm
     icp_targeting --> marketing_context
     icp_targeting --> prospecting
     icp_targeting --> social_media_targeting
@@ -84,6 +113,7 @@ graph LR
     influencer_marketing --> event_marketing
     influencer_marketing --> digital_pr
     influencer_marketing --> analytics
+    lead_magnets --> graphic_design
     lead_magnets --> content_strategy
     lead_magnets --> copywriting
     lead_magnets --> cro
@@ -94,17 +124,25 @@ graph LR
     marketing_context --> icp_targeting
     marketing_context --> product_marketing
     marketing_context --> competitor_research
+    marketing_project_management --> product_marketing
+    marketing_project_management --> gtm_strategy
+    marketing_project_management --> event_marketing
+    marketing_project_management --> content_strategy
+    marketing_project_management --> analytics
+    marketing_project_management --> revops
     on_page_seo --> technical_seo
     on_page_seo --> ai_search
     on_page_seo --> schema_markup
     on_page_seo --> content_strategy
     on_page_seo --> copywriting
+    paid_search --> retargeting
     paid_search --> analytics
     paid_search --> cro
     paid_search --> copywriting
     paid_search --> competitor_research
     paid_search --> revops
     paid_search --> on_page_seo
+    paid_social --> retargeting
     paid_social --> social_media_targeting
     paid_social --> copywriting
     paid_social --> analytics
@@ -112,17 +150,27 @@ graph LR
     paid_social --> lead_magnets
     paid_social --> influencer_marketing
     paid_social --> social_media_reporting
+    product_marketing --> customer_advocacy
+    product_marketing --> marketing_project_management
     product_marketing --> marketing_context
     product_marketing --> gtm_strategy
     product_marketing --> competitor_research
     product_marketing --> copywriting
     product_marketing --> icp_targeting
     product_marketing --> lead_magnets
+    prospecting --> abm
     prospecting --> icp_targeting
     prospecting --> cold_email
     prospecting --> revops
     prospecting --> competitor_research
     prospecting --> social_media_targeting
+    retargeting --> paid_social
+    retargeting --> paid_search
+    retargeting --> social_media_targeting
+    retargeting --> analytics
+    retargeting --> abm
+    retargeting --> graphic_design
+    retargeting --> cro
     revops --> analytics
     revops --> icp_targeting
     revops --> email_marketing
@@ -144,6 +192,8 @@ graph LR
     social_media_strategy --> copywriting
     social_media_strategy --> influencer_marketing
     social_media_strategy --> paid_social
+    social_media_targeting --> retargeting
+    social_media_targeting --> abm
     social_media_targeting --> icp_targeting
     social_media_targeting --> paid_social
     social_media_targeting --> prospecting
@@ -154,6 +204,7 @@ graph LR
     technical_seo --> ai_search
     technical_seo --> analytics
     technical_seo --> ux_ui
+    ux_ui --> graphic_design
     ux_ui --> cro
     ux_ui --> copywriting
     ux_ui --> technical_seo
@@ -168,6 +219,8 @@ graph LR
 | Launch a product | marketing-context → product-marketing → gtm-strategy → copywriting → lead-magnets → paid-social / email-marketing → analytics |
 | Rank and get cited for a topic | content-strategy → on-page-seo → schema-markup → technical-seo → ai-search → digital-pr |
 | Build outbound pipeline | icp-targeting → prospecting → cold-email → revops |
-| Run an ABM program | icp-targeting → social-media-targeting → paid-social → prospecting → event-marketing → revops |
+| Run an ABM program | icp-targeting → abm → social-media-targeting → paid-social → retargeting → prospecting → event-marketing → revops |
+| Build social proof | customer-advocacy → copywriting → graphic-design → cro / paid-social |
+| Ship a campaign on time | marketing-project-management → copywriting → graphic-design → analytics |
 | Improve conversion | analytics → cro → ux-ui → copywriting |
 | Prove social ROI | social-media-strategy → social-media-reporting → revops |

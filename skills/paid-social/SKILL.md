@@ -2,7 +2,7 @@
 name: paid-social
 description: "Plans, launches, and optimizes paid social for B2B on LinkedIn Ads, Meta, YouTube, X, and Reddit: objectives, funnel structure, ad formats (single image, document, video, conversation, Thought Leader ads, lead gen forms), creative strategy and testing, budgets and bidding, frequency, CRM-integrated lead forms, and measurement. Use when the user mentions LinkedIn ads, Facebook/Meta ads, paid social, social ads, ad creative, lead gen forms, or CPL/cost per opportunity on social."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
   author: William Montgomery
 ---
 
@@ -12,6 +12,7 @@ metadata:
 
 1. **Load shared context.** If `.agents/marketing-context.md` exists, read it first and only ask for what's missing. If it doesn't exist, offer to run the [marketing-context](../marketing-context/SKILL.md) skill (5–10 minutes) or proceed with a few quick questions.
 2. **Confirm the job.** Restate the task, the audience, and what "done" looks like in one or two sentences before producing work.
+3. **Write like a person.** Any copy you produce (emails, posts, ads, pages, briefs) follows the [copywriting's Don'ts](../copywriting/SKILL.md): no em dashes, no "it's not X, it's Y" framing, no choppy fragment stacks or repetition for effect; use flowing prose in second person with contractions.
 
 ## Strategy
 Paid social **creates demand**: it reaches buyers before they search. Plan for a full funnel, not just lead forms:
@@ -43,10 +44,11 @@ Load these only when the task needs the detail:
 
 ## Related Skills
 
-- [social-media-targeting](../social-media-targeting/SKILL.md) — audience building
-- [copywriting](../copywriting/SKILL.md) — ad copy
-- [analytics](../analytics/SKILL.md) — pixels and conversions
-- [cro](../cro/SKILL.md) — landing pages
-- [lead-magnets](../lead-magnets/SKILL.md) — offers
-- [influencer-marketing](../influencer-marketing/SKILL.md) — Thought Leader and creator ads
-- [social-media-reporting](../social-media-reporting/SKILL.md) — reporting paid social
+- [retargeting](../retargeting/SKILL.md): warm-audience sequences
+- [social-media-targeting](../social-media-targeting/SKILL.md): audience building
+- [copywriting](../copywriting/SKILL.md): ad copy
+- [analytics](../analytics/SKILL.md): pixels and conversions
+- [cro](../cro/SKILL.md): landing pages
+- [lead-magnets](../lead-magnets/SKILL.md): offers
+- [influencer-marketing](../influencer-marketing/SKILL.md): Thought Leader and creator ads
+- [social-media-reporting](../social-media-reporting/SKILL.md): reporting paid social

@@ -2,7 +2,7 @@
 name: product-marketing
 description: "Owns positioning, messaging, and product launches: positioning statements, messaging houses, value propositions, competitive differentiation, launch tiering and plans, sales enablement (pitch narratives, battlecards, one-pagers), pricing and packaging messaging, and customer research. Use when the user asks about positioning, messaging, value props, a product or feature launch, sales enablement, or 'how should we talk about this product'."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
   author: William Montgomery
 ---
 
@@ -12,6 +12,7 @@ metadata:
 
 1. **Load shared context.** If `.agents/marketing-context.md` exists, read it first and only ask for what's missing. If it doesn't exist, offer to run the [marketing-context](../marketing-context/SKILL.md) skill (5–10 minutes) or proceed with a few quick questions.
 2. **Confirm the job.** Restate the task, the audience, and what "done" looks like in one or two sentences before producing work.
+3. **Write like a person.** Any copy you produce (emails, posts, ads, pages, briefs) follows the [copywriting's Don'ts](../copywriting/SKILL.md): no em dashes, no "it's not X, it's Y" framing, no choppy fragment stacks or repetition for effect; use flowing prose in second person with contractions.
 
 ## What PMM owns
 1. **Positioning:** what we are, for whom, against what alternative, and why we win.
@@ -49,9 +50,11 @@ Load these only when the task needs the detail:
 
 ## Related Skills
 
-- [marketing-context](../marketing-context/SKILL.md) — stores positioning
-- [gtm-strategy](../gtm-strategy/SKILL.md) — market entry and launch execution
-- [competitor-research](../competitor-research/SKILL.md) — battlecards and differentiation
-- [copywriting](../copywriting/SKILL.md) — message execution
-- [icp-targeting](../icp-targeting/SKILL.md) — best-fit customers
-- [lead-magnets](../lead-magnets/SKILL.md) — enablement collateral
+- [customer-advocacy](../customer-advocacy/SKILL.md): proof points and references
+- [marketing-project-management](../marketing-project-management/SKILL.md): running the launch plan
+- [marketing-context](../marketing-context/SKILL.md): stores positioning
+- [gtm-strategy](../gtm-strategy/SKILL.md): market entry and launch execution
+- [competitor-research](../competitor-research/SKILL.md): battlecards and differentiation
+- [copywriting](../copywriting/SKILL.md): message execution
+- [icp-targeting](../icp-targeting/SKILL.md): best-fit customers
+- [lead-magnets](../lead-magnets/SKILL.md): enablement collateral

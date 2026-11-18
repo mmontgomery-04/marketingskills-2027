@@ -2,7 +2,7 @@
 name: social-media-targeting
 description: "Defines who social content and ads reach: translating the ICP into platform audiences on LinkedIn, Meta, X, YouTube, and Reddit, including job title/function/seniority targeting, company lists and matched audiences, retargeting, lookalikes and predictive audiences, ABM audiences, exclusions, and organic audience-building. Use when the user asks how to target a specific buyer on social, build audiences, upload account lists, set up retargeting, or reach decision makers on LinkedIn or Meta."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
   author: William Montgomery
 ---
 
@@ -12,6 +12,7 @@ metadata:
 
 1. **Load shared context.** If `.agents/marketing-context.md` exists, read it first and only ask for what's missing. If it doesn't exist, offer to run the [marketing-context](../marketing-context/SKILL.md) skill (5–10 minutes) or proceed with a few quick questions.
 2. **Confirm the job.** Restate the task, the audience, and what "done" looks like in one or two sentences before producing work.
+3. **Write like a person.** Any copy you produce (emails, posts, ads, pages, briefs) follows the [copywriting's Don'ts](../copywriting/SKILL.md): no em dashes, no "it's not X, it's Y" framing, no choppy fragment stacks or repetition for effect; use flowing prose in second person with contractions.
 
 ## Workflow
 
@@ -54,8 +55,10 @@ Load these only when the task needs the detail:
 
 ## Related Skills
 
-- [icp-targeting](../icp-targeting/SKILL.md) — the source of targeting criteria
-- [paid-social](../paid-social/SKILL.md) — campaigns using these audiences
-- [prospecting](../prospecting/SKILL.md) — coordinating ABM outreach
-- [social-media-strategy](../social-media-strategy/SKILL.md) — organic audience building
-- [analytics](../analytics/SKILL.md) — pixels and retargeting data
+- [retargeting](../retargeting/SKILL.md): the warm and hot audience layers
+- [abm](../abm/SKILL.md): account-based programs
+- [icp-targeting](../icp-targeting/SKILL.md): the source of targeting criteria
+- [paid-social](../paid-social/SKILL.md): campaigns using these audiences
+- [prospecting](../prospecting/SKILL.md): coordinating ABM outreach
+- [social-media-strategy](../social-media-strategy/SKILL.md): organic audience building
+- [analytics](../analytics/SKILL.md): pixels and retargeting data

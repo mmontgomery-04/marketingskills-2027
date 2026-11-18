@@ -2,7 +2,7 @@
 name: ux-ui
 description: "Reviews and improves UX and UI for marketing sites and B2B SaaS products using strategy and best practices: information architecture, navigation, usability heuristics, visual hierarchy, design systems, accessibility (WCAG), responsive and mobile design, onboarding flows, dashboards, forms, and empty states. Use when the user asks for a UX audit, UI critique, wireframe, site structure, navigation redesign, accessibility review, or design best practices."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
   author: William Montgomery
 ---
 
@@ -12,6 +12,7 @@ metadata:
 
 1. **Load shared context.** If `.agents/marketing-context.md` exists, read it first and only ask for what's missing. If it doesn't exist, offer to run the [marketing-context](../marketing-context/SKILL.md) skill (5–10 minutes) or proceed with a few quick questions.
 2. **Confirm the job.** Restate the task, the audience, and what "done" looks like in one or two sentences before producing work.
+3. **Write like a person.** Any copy you produce (emails, posts, ads, pages, briefs) follows the [copywriting's Don'ts](../copywriting/SKILL.md): no em dashes, no "it's not X, it's Y" framing, no choppy fragment stacks or repetition for effect; use flowing prose in second person with contractions.
 
 ## Workflow
 
@@ -53,8 +54,9 @@ Load these only when the task needs the detail:
 
 ## Related Skills
 
-- [cro](../cro/SKILL.md) — conversion testing
-- [copywriting](../copywriting/SKILL.md) — microcopy and messaging
-- [technical-seo](../technical-seo/SKILL.md) — performance and Core Web Vitals
-- [analytics](../analytics/SKILL.md) — behavior data
-- [icp-targeting](../icp-targeting/SKILL.md) — personas and tasks
+- [graphic-design](../graphic-design/SKILL.md): brand visuals and marketing graphics
+- [cro](../cro/SKILL.md): conversion testing
+- [copywriting](../copywriting/SKILL.md): microcopy and messaging
+- [technical-seo](../technical-seo/SKILL.md): performance and Core Web Vitals
+- [analytics](../analytics/SKILL.md): behavior data
+- [icp-targeting](../icp-targeting/SKILL.md): personas and tasks

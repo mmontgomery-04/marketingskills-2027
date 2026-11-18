@@ -1,0 +1,29 @@
+{
+  "skill_name": "retargeting",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Set up a retargeting program for our B2B SaaS across LinkedIn and Google. We get 20,000 site visits a month.",
+      "expected_output": "Tracking/consent check, intent segments with windows, sequenced offers, frequency caps, exclusions, platform setup, incrementality.",
+      "files": [],
+      "assertions": [
+        "Checks tracking and consent first",
+        "Segments by intent and recency",
+        "Sequences offers by segment",
+        "Includes exclusions and frequency caps",
+        "Recommends a holdout or incrementality check"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Our retargeting ads have a 9 frequency and CTR keeps dropping.",
+      "expected_output": "Diagnoses fatigue; recommends caps, creative rotation, segment splits, exclusions.",
+      "files": [],
+      "assertions": [
+        "Identifies creative fatigue",
+        "Recommends frequency caps and rotation",
+        "Checks exclusions"
+      ]
+    }
+  ]
+}

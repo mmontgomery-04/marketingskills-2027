@@ -2,7 +2,7 @@
 name: copywriting
 description: "Writes and edits B2B marketing copy in the right framework, style, and format for each application: homepages, landing pages, product pages, ads, emails, sales one-pagers, case studies, social posts, video scripts, and microcopy. Covers frameworks (PAS, AIDA, BAB, 4Ps, StoryBrand, JTBD), voice styles (authoritative, conversational, technical, provocative, executive), and audience-specific angles for economic buyers, champions, and technical evaluators. Use for any request to write, rewrite, punch up, or critique marketing copy, headlines, CTAs, or value propositions. All claims must have evidence or support; if not, they must not be included."
 metadata:
-  version: 1.1.0
+  version: 1.1.1
   author: William Montgomery
 ---
 
@@ -80,6 +80,8 @@ Load these only when the task needs the detail:
 
 ## Related Skills
 
+- [graphic-design](../graphic-design/SKILL.md) — visual execution of the copy
+- [customer-advocacy](../customer-advocacy/SKILL.md) — case studies and customer quotes
 - [product-marketing](../product-marketing/SKILL.md) — positioning and messaging the copy expresses
 - [cro](../cro/SKILL.md) — testing and improving converting copy
 - [on-page-seo](../on-page-seo/SKILL.md) — search requirements for web copy

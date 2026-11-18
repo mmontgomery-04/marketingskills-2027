@@ -1,5 +1,10 @@
 # Versions
 
+## 1.1.0 — 2026-11-17 (library release)
+- Added 5 skills: `abm`, `graphic-design`, `retargeting`, `marketing-project-management`, `customer-advocacy`. 32 skills in total.
+- Cross-linked the new skills from related existing skills (`ai-search` and `copywriting` to 1.1.1; `event-marketing`, `gtm-strategy`, `icp-targeting`, `lead-magnets`, `paid-search`, `paid-social`, `product-marketing`, `prospecting`, `social-media-targeting`, `ux-ui` to 1.0.1).
+- README, skill map, and trigger evals updated; plugin manifests at 1.1.0.
+
 ## cold-email 1.1.0 — 2026-11-17
 - Five-input intake (recipient, goal, problem, proof, signal) that writes with what it has.
 - New principles: the delete-the-opener personalization test, "you" over "we", tone by seniority.

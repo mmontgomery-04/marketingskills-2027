@@ -108,6 +108,26 @@
     {
       "prompt": "Set up context about my company so you remember it",
       "expected_skill": "marketing-context"
+    },
+    {
+      "prompt": "Build an account-based marketing program for our top 100 accounts",
+      "expected_skill": "abm"
+    },
+    {
+      "prompt": "Design a one-pager layout and brand visuals for our product",
+      "expected_skill": "graphic-design"
+    },
+    {
+      "prompt": "Show ads to people who visited our pricing page but didn't book a demo",
+      "expected_skill": "retargeting"
+    },
+    {
+      "prompt": "Build a timeline and owner list for our product launch",
+      "expected_skill": "marketing-project-management"
+    },
+    {
+      "prompt": "Get more G2 reviews and write customer case studies",
+      "expected_skill": "customer-advocacy"
     }
   ]
 }

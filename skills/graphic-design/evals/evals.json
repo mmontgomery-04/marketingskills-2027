@@ -1,0 +1,39 @@
+{
+  "skill_name": "graphic-design",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Design a LinkedIn ad for our webinar on cloud cost optimization aimed at CFOs.",
+      "expected_output": "Brief, brand system applied, correct LinkedIn specs, clear hierarchy, contrast check, final copy without AI-isms.",
+      "files": [],
+      "assertions": [
+        "Starts from a creative brief",
+        "Uses current LinkedIn sizing with a check-current-specs note",
+        "Defines visual hierarchy",
+        "Checks contrast/accessibility",
+        "Ad copy has no em dashes or antithesis"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "We don't have brand guidelines. Create a basic visual system for our startup.",
+      "expected_output": "Minimum viable system: logo usage, color palette with contrast, type scale, imagery, grid, templates.",
+      "files": [],
+      "assertions": [
+        "Covers logo, color, type, imagery, layout",
+        "Checks color contrast",
+        "Recommends shared templates"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Redesign the onboarding screens in our app.",
+      "expected_output": "Should route to ux-ui.",
+      "files": [],
+      "assertions": [
+        "Recognizes product UI belongs to ux-ui",
+        "Routes to ux-ui"
+      ]
+    }
+  ]
+}

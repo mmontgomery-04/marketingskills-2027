@@ -2,7 +2,7 @@
 name: paid-search
 description: "Plans, builds, and optimizes paid search for B2B: Google Ads and Microsoft Ads strategy, account and campaign structure, keyword research and match types, negative keywords, responsive search ads, bidding strategies, Performance Max, brand and competitor campaigns, landing page alignment, offline conversion imports, and budget pacing. Use when the user mentions Google Ads, PPC, SEM, paid search, search ads, keywords for ads, CPCs, or ROAS/CPA on search."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
   author: William Montgomery
 ---
 
@@ -12,9 +12,10 @@ metadata:
 
 1. **Load shared context.** If `.agents/marketing-context.md` exists, read it first and only ask for what's missing. If it doesn't exist, offer to run the [marketing-context](../marketing-context/SKILL.md) skill (5–10 minutes) or proceed with a few quick questions.
 2. **Confirm the job.** Restate the task, the audience, and what "done" looks like in one or two sentences before producing work.
+3. **Write like a person.** Any copy you produce (emails, posts, ads, pages, briefs) follows the [copywriting's Don'ts](../copywriting/SKILL.md): no em dashes, no "it's not X, it's Y" framing, no choppy fragment stacks or repetition for effect; use flowing prose in second person with contractions.
 
 ## Strategy first
-Search **captures** existing demand; it doesn't create it. In B2B, search volume for your category may be small. Prioritize:
+Search **captures** demand that already exists, so it works best alongside channels that build awareness. In B2B, search volume for your category may be small. Prioritize:
 1. **Brand** (protect your name; usually cheapest conversions)
 2. **High-intent non-brand**: "[category] software", "[problem] tool", "[competitor] alternative", "[category] pricing"
 3. **Competitor** terms (if economics work and policy allows)
@@ -58,9 +59,10 @@ Load these only when the task needs the detail:
 
 ## Related Skills
 
-- [analytics](../analytics/SKILL.md) — conversion tracking
-- [cro](../cro/SKILL.md) — landing page conversion
-- [copywriting](../copywriting/SKILL.md) — ad copy
-- [competitor-research](../competitor-research/SKILL.md) — conquesting angles
-- [revops](../revops/SKILL.md) — offline conversion data
-- [on-page-seo](../on-page-seo/SKILL.md) — organic vs paid keyword strategy
+- [retargeting](../retargeting/SKILL.md): search remarketing and Customer Match
+- [analytics](../analytics/SKILL.md): conversion tracking
+- [cro](../cro/SKILL.md): landing page conversion
+- [copywriting](../copywriting/SKILL.md): ad copy
+- [competitor-research](../competitor-research/SKILL.md): conquesting angles
+- [revops](../revops/SKILL.md): offline conversion data
+- [on-page-seo](../on-page-seo/SKILL.md): organic vs paid keyword strategy
