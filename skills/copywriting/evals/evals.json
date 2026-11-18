@@ -34,6 +34,19 @@
         "Returns original/revised/why table",
         "Keeps outcomes up front"
       ]
+    },
+    {
+      "id": 4,
+      "prompt": "Punch up this landing page copy: \"In today's fast-paced world, our cutting-edge platform empowers teams to unlock seamless collaboration. It's not just software, it's a game-changer. Trusted by the world's leading companies, we're the #1 choice for growing teams.\"",
+      "expected_output": "Rewrite with no AI-isms, unsupported claims cut or flagged with [PROOF NEEDED], and a redline table.",
+      "files": [],
+      "assertions": [
+        "Removes every word and phrase on the Don'ts list",
+        "Drops the 'not just X, it's Y' frame",
+        "Cuts or flags '#1 choice' and 'world's leading companies' as unsupported",
+        "Does not invent stats, customers, or logos",
+        "Returns original/revised/why table"
+      ]
     }
   ]
 }
