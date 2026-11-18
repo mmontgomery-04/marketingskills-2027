@@ -24,6 +24,32 @@
         "Mentions SPF/DKIM/DMARC",
         "Mentions warmup and volume caps"
       ]
+    },
+    {
+      "id": 3,
+      "prompt": "A prospect replied: 'Interesting, but we're locked into a contract with our current vendor until June.' What do we do?",
+      "expected_output": "Classifies as timing, stops the sequence on every channel, drafts a short reply, sets a dated follow-up before June, logs it.",
+      "files": [],
+      "assertions": [
+        "Classifies the reply as timing / not now",
+        "Stops all automated steps for this contact",
+        "Drafts a short, non-pushy reply",
+        "Sets a dated follow-up ahead of the renewal",
+        "Logs the outcome in the CRM"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Review this cold email: 'Hi Sam, I hope this finds you well! My name is Alex and I'm with Acme. We offer AI dashboards, automated alerts, 40+ integrations, and SOC 2 compliance. Do you have 30 minutes this week for a call?'",
+      "expected_output": "Redline that removes the self-intro and pleasantry, replaces the feature list with one proof point, swaps the meeting ask for an interest question, and adds relevant personalization.",
+      "files": [],
+      "assertions": [
+        "Flags the self-introduction and stock pleasantry",
+        "Cuts the feature list to one proof point",
+        "Replaces the 30-minute ask with a low-friction question",
+        "Applies the delete-the-opener personalization test",
+        "Uses no AI-isms from the Don'ts list"
+      ]
     }
   ]
 }

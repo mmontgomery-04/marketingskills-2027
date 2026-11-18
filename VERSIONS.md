@@ -1,5 +1,14 @@
 # Versions
 
+## cold-email 1.1.0 — 2026-11-17
+- Five-input intake (recipient, goal, problem, proof, signal) that writes with what it has.
+- New principles: the delete-the-opener personalization test, "you" over "we", tone by seniority.
+- Sequence rules: widening gaps, emails that stand alone, breakups that end the sequence; a reply on any channel stops everything.
+- Quality check and a cold-specific Don'ts list that builds on copywriting's.
+- New references: `reply-handling.md`, `outbound-plays.md`, `multichannel.md` (incl. LinkedIn).
+- Infrastructure adds mailbox provider rules, monitoring, and stop rules.
+- Sending tools added to `tools/README.md`; two new evals.
+
 ## ai-search 1.1.0 — 2026-11-17
 - Baseline visibility now starts by finding fan-outs: run the user's root terms through AnswerThePublic and build the prompt set from the results.
 - `references/visibility-tracking.md` covers picking root terms, sorting results into buckets, filtering, and rewriting fragments into natural prompts.

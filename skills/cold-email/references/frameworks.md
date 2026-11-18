@@ -20,4 +20,6 @@
 5. Breakup: "Should I close the loop?"
 
 ## Subject lines
-Lowercase, 2–4 words, no clickbait: `{{company}} + hiring`, `austin expansion`, `quick idea for {{team}}`.
+Lowercase, 2–4 words, no clickbait: `{{company}} + hiring`, `austin expansion`, `quick idea for {{team}}`. All it has to do is earn the open, so make it read like a note from a coworker. Skip pitches, emojis, urgency, the recipient's first name, and fake "Re:" prefixes.
+
+No framework fits? Write it plainly. A clear, relevant note beats a forced structure.
