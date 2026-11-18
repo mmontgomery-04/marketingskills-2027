@@ -6,6 +6,7 @@ How the skills pair with common tools. Skills are tool-agnostic; these notes hel
 |---|---|---|
 | Google Search Console | on-page-seo, technical-seo, ai-search | Indexing, queries, Core Web Vitals, generative AI performance reporting |
 | GA4 + Google Tag Manager | analytics, cro, social-media-reporting | See `skills/analytics/references/` |
+| AnswerThePublic | ai-search | Question, preposition, and comparison fan-outs from a root term; the free tier has a daily search limit |
 | Semrush / Ahrefs | on-page-seo, content-strategy, competitor-research | Keyword data, SERP analysis, backlinks, gaps |
 | HubSpot / Salesforce | revops, email-marketing, analytics | Lifecycle stages, scoring, attribution; HubSpot Breeze Intelligence for enrichment |
 | Apollo / ZoomInfo / Clay / Sales Navigator | prospecting, icp-targeting, cold-email | List building and enrichment |

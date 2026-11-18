@@ -1,5 +1,10 @@
 # Versions
 
+## ai-search 1.1.0 — 2026-11-17
+- Baseline visibility now starts by finding fan-outs: run the user's root terms through AnswerThePublic and build the prompt set from the results.
+- `references/visibility-tracking.md` covers picking root terms, sorting results into buckets, filtering, and rewriting fragments into natural prompts.
+- AnswerThePublic added to `tools/README.md`; new eval for building a prompt set from root terms.
+
 ## cro 1.1.0 — 2026-11-17
 - Intake now asks for page type, what happens after the conversion, research on hand, and past tests.
 - Page audit reordered by impact, with common failure points, CTA wording, proof quality, and an objection-answer table.

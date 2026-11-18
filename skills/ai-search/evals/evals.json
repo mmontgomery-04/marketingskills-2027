@@ -35,6 +35,20 @@
         "Discourages artificial chunking",
         "Redirects to fundamentals and original content"
       ]
+    },
+    {
+      "id": 4,
+      "prompt": "Build a prompt set to track our AI search visibility. Our root terms are 'expense management' and 'corporate card'.",
+      "expected_output": "Runs each root term through AnswerThePublic (or asks the user to), sorts fan-outs into buckets, filters and rewrites them into natural prompts, adds brand and competitor prompts, ends with 25-50 prompts.",
+      "files": [],
+      "assertions": [
+        "Uses AnswerThePublic with each root term the user gave",
+        "Sorts questions, prepositions, and comparisons into prompt buckets",
+        "Rewrites search fragments into full conversational questions",
+        "Filters out results outside the ICP",
+        "Adds brand and competitor prompts",
+        "Delivers 25-50 prompts"
+      ]
     }
   ]
 }

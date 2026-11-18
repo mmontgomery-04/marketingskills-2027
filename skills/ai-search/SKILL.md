@@ -2,7 +2,7 @@
 name: ai-search
 description: "Improves visibility and citations in AI search and answer engines (ChatGPT, Perplexity, Gemini, Claude, Copilot, Google AI Overviews and AI Mode), also called GEO, AEO, or LLM SEO. Use when the user asks how to show up in ChatGPT, get cited by AI, track AI share of voice, optimize for AI Overviews, or write content LLMs will quote. Traditional ranking work belongs to on-page-seo and technical-seo."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   author: William Montgomery
 ---
 
@@ -22,7 +22,14 @@ metadata:
 ## Workflow
 
 ### 1. Baseline visibility
-Build a prompt set of 25–50 questions your ICP actually asks (problem-aware, solution-aware, and comparison prompts such as "best X for Y", "X vs Y"). Run them across ChatGPT, Perplexity, Gemini, and AI Overviews. Log brand mentions, citations, position, and which sources get cited. Template: [visibility-tracking.md](references/visibility-tracking.md).
+**Find the fan-outs first.** AI engines break a question into many related sub-searches before they answer (Google calls this "query fan-out" in AI Mode). Map those sub-questions with AnswerThePublic (answerthepublic.com):
+1. Take the root terms the user gave (e.g. "expense management"). If they gave none, use the category and core product terms from the context file, or ask for 1–3.
+2. Run each root term in AnswerThePublic, set to the user's main country and language.
+3. Collect the questions, prepositions ("for", "with", "without"), and comparisons ("vs", "or") it returns. These are your fan-outs.
+
+How to sort, filter, and rewrite them: [visibility-tracking.md](references/visibility-tracking.md#finding-fan-outs-with-answerthepublic).
+
+Then build a prompt set of 25–50 questions your ICP actually asks, drawn from the fan-outs plus sales and support questions (problem-aware, solution-aware, and comparison prompts such as "best X for Y", "X vs Y"). Run them across ChatGPT, Perplexity, Gemini, and AI Overviews. Log brand mentions, citations, position, and which sources get cited. Template: [visibility-tracking.md](references/visibility-tracking.md).
 
 ### 2. Fix the owned content
 Apply [citable-content.md](references/citable-content.md). This is good writing for people first; it also happens to be easy for AI systems to quote:
